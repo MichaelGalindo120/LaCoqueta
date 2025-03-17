@@ -52,7 +52,6 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnlista = new javax.swing.JButton();
         btnventa = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("LA COQUETA S.A.S");
@@ -115,11 +114,6 @@ public class frmPrincipal extends javax.swing.JFrame {
             }
         });
         pnlppal.add(btnSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 440, -1, -1));
-
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel1.setText("Prueba de Push");
-        pnlppal.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 120, 90));
 
         getContentPane().add(pnlppal, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 560));
 
@@ -196,7 +190,6 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btninfo;
     private javax.swing.JButton btnlista;
     private javax.swing.JButton btnventa;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblLogo;
     private javax.swing.JPanel pnlppal;
